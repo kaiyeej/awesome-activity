@@ -28,7 +28,7 @@ const Classes: React.FC = () => {
         <IonList>
           {classes.map(cls => (
             <IonItem key={cls.id}>
-              <IonIcon icon={personCircleOutline} slot="start" />
+              <IonIcon icon={personCircleOutline} color='primary' slot="start" />
               <IonLabel>
                 <h2>{cls.name}</h2>
                 <p>Teacher: {cls.teacher}</p>
